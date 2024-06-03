@@ -1,1 +1,73 @@
 
+public interface Figure {
+double getArea();
+double getPerimeter();
+
+}
+
+[вторник 09:53] Illia Yermakov
+import java.util.ArrayList;
+public class Main{
+
+public static void main(String[] args) {
+double radius = 3d;
+
+Figure circle = new Circle(radius);
+double base side = 10d;
+double side = 5d
+double height = 8d;
+
+Figure paraleogram = new Paraleogram(base, side, height);
+double sideA = 15d;
+double sideB = 10;
+
+Figure rectangle = new Recnatlegle(sideA, sideB);
+
+List<Figure>figures = new ArrayList<>(3);
+
+}
+
+}
+public class Circle implements Figure {
+
+@Override
+public double getArea() {
+return 0;
+
+}
+@Override
+public double getPerimeter() {
+return 0;
+
+}
+
+
+public class Recnatlegle implements Figure {
+@Override
+public double getArea() {
+return 0;
+
+}
+@Override
+public double getPerimeter() {
+return 0;
+
+}
+
+}
+
+
+public class Paraleogram implements Figure{
+@Override
+public double getArea() {
+return 0;
+
+}
+@Override
+public double getPerimeter() {
+return 0;
+
+}
+
+}
+
